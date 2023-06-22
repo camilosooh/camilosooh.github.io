@@ -1,0 +1,267 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Isis</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./img/Isis.png" type="image/x-icon">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row ">
+            <div class="col-6">
+                <img class="bg-img" src="./img/Isis.png" alt="">
+            </div>
+            <div class="col-6 d-flex justify-content-end  align-items-center">
+                <form class="d-flex" role="search">
+                    <button class="btn-outline-success" type="submit">🔎</button>
+                    <input class="" type="search" placeholder="Search" aria-label="Search">
+                </form>
+            </div>
+        </div>
+    </div>
+
+    </div>
+    <nav class="nav bg-green gap-3 p-2 fs-5 d-flex justify-content-center align-items-center">
+        <a class="nav-link" href="#">Inicio</a>
+        <a class="nav-link" onclick="scrollByAmount(682)" href="#">Contexto</a>
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Juego
+            </a>
+            <ul class="dropdown-menu menu-transition">
+                <li><a class="dropdown-item" onclick="scrollByAmount(1702)" href="#">Juego</a></li>
+                <li><a class="dropdown-item" onclick="scrollByAmount(2602)" href="#">Descripción</a></li>
+                <li><a class="dropdown-item" onclick="scrollByAmount(3320)" href="#">Personajes</a></li>
+            </ul>
+        </li>
+        <a class="nav-link" href="#nosotros">Nosotros</a>
+    </nav>
+    <section class="section-inicio">
+        <div class="container">
+            <div class="row ">
+                <div class="col-12 ps-title">
+                    <h1 class="text-light mt-5 text-center">¿Que es Isis?</h1>
+                    <p class="text-light mt-3 fs-5 col-8 paragraph-title"> Un proyecto que busca, capacitar, e informar a todas aquellas personas que desconocen del tema sobre la salud humana y animal.<br><br>Que ignoran el impacto que este tema puede llegar a tener en nuestras vidas, a causa de las malas practicas que se pueden llegar a ver reflejadas en el día a día de cada persona</p>
+                </div>
+                <div class="col-12 d-flex justify-content-center">
+                    <img class="imgpic" src="./img/world.png" alt="World">
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <section class="bg-section-2">
+        <div class="container">
+            <div class="row">
+                <div class="col tainer">
+                    <h1 id="contexto" class="text-center">Contexto</h1>
+                    <div class="row d-flex gap-5 justify-content-center mt-5">
+                        <div class="card col-5 carta" style="width: 18rem;">
+                            <div class="card-body card-p text-light  p-4">
+                                <h5 class="card-title fs-2 text-center mb-4">Proyecto</h5>
+                                <p class="card-text ">Isis es un proyecto enfocado en la salud humana y animal, que se creó con el fin de fomentar las buenas prácticas humanas con respecto a la tenencia de mascotas. Asimismo, trata la desinformación que existe respecto a este tema, buscando abarcar la mayor información posible para permitir al lector conocer e interesarse más sobre este; para ello, también, se creó un juego web que permitirá informarse de una forma didáctica. </p>
+                            </div>
+                        </div>
+                        <div class="col-2 column2"></div>
+                        <div class="card col-5 carta" style="width: 18rem;">
+                            <div class="card-body card-p text-light p-4">
+                                <h5 class="card-title fs-2 text-center mb-4">Zoonótica</h5>
+                                <p class="card-text">Se le conoce por zoonosis a un grupo de enfermedades o patógenos
+                                    transmitido naturalmente de a animales a humanos. Estos pueden ser provocadas por
+                                    virus, parásitos, hongos, entre otros; debido a la relación ya sea directa o
+                                    indirecta con los animales.</p>
+                                <a href="#" class="btm">Another link</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="bg-section-3 mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h1 id="juego" class="mt-5 text-center text-light">Juego Web 🎮</h1>
+                </div>
+                <img class="mt-5 mb-5" src="./img/Cientificosenapuros.png" alt="" srcset="">
+            </div>
+        </div>
+    </section>
+    <section class="bg-section-4">
+        <div class="container">
+            <div class="row d-flex justify-content-center">
+                <div>
+                    <div class="col-10 text-light mb-5 description">
+                        <h2 id="desc" class="m-2 text-center">Cientificos en apuros</h2>
+                        <hr style="padding: 0 0 10px 0; margin: 0 auto;">
+                        <p class="fs-6 px-5">Este juego fue creado con el fin de informar a las personas de forma didáctica acerca de la salud humana y animal. La historia gira en torno a Fleming, un científico que busca salvar la ciudad de Kingston de una nube tóxica que infecta a los animales mediante parásitos. El antídoto finalmente es encontrado gracias al trabajo conjunto del científico y los animales.</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-6">
+                        <div id="" class="carousel slide">
+                            <img src="./img/immgcontr.png" alt="" srcset="">
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div id="carouselExample" class="carousel slide">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="./img/controles.png" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="./img/controles.png" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="./img/controles.png" class="d-block w-100" alt="...">
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+
+
+        </div>
+        <button id="btnHistoria" class="btn mt-5" onclick="toggleTexto()">Historia ››</button>
+        <p id="parrafo" style="display: none;">Fleming Es un personaje inspirado en uno de los más grandes cientícos y médicos microbiólogo de Londres (Alexander Fleming) que trabajaba con cultivos de bacterias y descubrió una importante medicina para prevenir ciertas infecciones provocadas por estas, este es el personaje histórico que en nuestro juego se encargara de salvar la ciudad de Kinston.</p>
+ 
+    </section>
+
+    <section class="bg-section-5 mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-4"></div>
+                <h2 id="character" class="text-center fs-1 mt-5 mb-5">Personajes</h2>
+                <div class="col-3 mb-5 card">
+                    <div class="front">
+                        <img src="./img/jhonatan2.png" alt="">
+                    </div>
+                    <div class="back">
+                        <h2 class="text-center">Jhonatan</h2>
+                        <p>este es el personaje histórico que en nuestro juego se encargara de salvar la ciudad de Kinston.</p>
+                    </div>
+                </div>
+                <div class="col-3 mb-5 card">
+                    <div class="front">
+                        <img src="./img/lars.png" alt="">
+                    </div>
+                    <div class="back">
+                        <h2 class="text-center">Lars</h2>
+                        <p>Experto en el tema de la ciencia humana y animal, logro crear un aparato que permitio verbalizar los sonidos de los animales.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="mb-5 mt-5 container">
+            <h1 id="nosotros" class=" mt-5 text-center">Nosotros</h1>
+            <div class="row bloque">
+                <div class="col-6 text-center mt-5 center d-block">
+                    <img class="imgNosotros text-center" src="./img/Camilo.png" alt="JuanCamilo">
+                    <h2 class="text-center text-center mt-3 mb-3">Juan Camilo</h2>
+                    <p>Estudiante de la entidad SENA, tiene 18 años de edad y se está formando en el área de producción multimedia, es el encargado de liderar el proyecto ISIS y se desempeña durante la creación en: Programación, ilustración, diseño y gestión.</p>
+                </div>
+                <div class="col-6 text-center mt-5 center d-block">
+                    <img class="imgNosotros text-center" src="./img/Jose.png" alt="JuanCamilo">
+                    <h2 class="text-center text-center mt-3 mb-3">Jose Manuel Alvarez</h2>
+                    <p>Estudiante de la entidad SENA, tiene 18 años de edad y se está formando en el área de producción multimedia, se desempeña durante la creación del proyecto en: La parte del diseño visual, en lo audiovisual y en la ilustración.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <hr>
+    <section>
+        
+        <div class="container">
+            <div class="row margin-b">
+                
+                <h2 class="text-center ">Contactanos</h2>
+                
+                <div class="col-6 m0-a">
+                    <form class="row g-3">
+                        <div class="col-md-12">
+                          <label for="inputEmail4" class="form-label">Email</label>
+                          <input type="email" class="form-control" id="inputEmail4">
+                        </div>
+                        <div class="row g-3">
+                            <div class="col">
+                              <input type="text" class="form-control" placeholder="Primer nombre" aria-label="First name">
+                            </div>
+                            <div class="col">
+                              <input type="text" class="form-control" placeholder="Segundo nombre" aria-label="Last name">
+                            </div>
+                          </div>
+                          <div class="form-floating">
+                            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+                            <label for="floatingTextarea2">Comentarios</label>
+                          </div>
+                        <div class="col-12">
+                          <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="gridCheck">
+                            <label class="form-check-label" for="gridCheck">
+                              Check me out
+                            </label>
+                          </div>
+                        </div>
+                        <div class="col-12 mb-3">
+                          <button type="submit" class="butt-form btn btn-primary">Sign in</button>
+                        </div>
+                      </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="footer">
+        <div class="container">
+            <img src="./img/Logo.png" class="m0-a">
+            <div class="row">
+                <div class="col-4"></div>
+                <div class="col-1 m0-a">
+                    <img class="m0-a" src="./img/FB.png" alt="">
+                </div>
+                <div class="col-1  m0-a">
+                    <img class="m0-a" src="./img/IG.png" alt="">
+                </div>
+                <div class="col-1  m0-a">
+                    <img class="m0-a" src="./img/GM.png" alt="">
+                </div>
+                <div class="col-1 m0-a">
+                    <img class="m0-a" src="./img/WH.png" alt="">
+                </div>
+                <div class="col-4"></div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <a href="#" class="text-center font">Terminos y condiciones</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <button onclick="scrollToTop()" class="floating-button">↑</button>
+
+    <script src="./js.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
