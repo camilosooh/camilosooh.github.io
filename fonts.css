@@ -1,0 +1,290 @@
+/* Reset de estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Fuentes personalizadas */
+@font-face {
+    font-family: Exo-Black;
+    src: url(./fonts/Exo-Black.ttf);
+}
+
+@font-face {
+    font-family: Exo-Bold;
+    src: url(./fonts/Exo-Bold.ttf);
+}
+
+@font-face {
+    font-family: Exo-Light;
+    src: url(./fonts/Exo-Light.ttf);
+}
+
+@font-face {
+    font-family: Exo-Regular;
+    src: url(./fonts/Exo-Regular.ttf);
+}
+
+@font-face {
+    font-family: Lato-Regular;
+    src: url(./fonts/Lato-Regular.ttf);
+}
+
+h1 {
+    font-family: Exo-black;
+    text-align: center;
+    margin: 0px auto 0;
+    font-size: 3.75rem;
+    display: block;
+    padding: 80px 0 10px;
+}
+
+nav {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 3;
+}
+
+.nav-container {
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    padding: 0 20px;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 720px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.nav-icon {
+    display: none;
+    cursor: pointer;
+}
+
+.bar {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 3px 0;
+}
+
+.nav-links {
+    max-width: 720px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Enlaces con línea */
+.link-con-linea {
+    position: relative;
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s;
+}
+
+.link-con-lineaunlock {
+    font-family: Exo-Regular;
+    color: #8b8b8b!important;
+    cursor: not-allowed;
+}
+
+.link-con-lineaunlock:hover {
+    padding-bottom: 0!important;
+}
+
+.link-con-linea::before {
+    content: "";
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: #333;
+    transition: width 0.3s;
+}
+
+.link-con-linea:hover::before {
+    width: 100%;
+}
+
+.btn-contactar {
+    text-align: center;
+    margin: 15px 0;
+    background-color: #E5E5E5;
+    border-radius: 15px;
+    width: 200px;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    font-family: Lato-Regular;
+    text-decoration: none;
+    font-size: 18px;
+    color: #000;
+    box-sizing: border-box;
+    border: 3px solid transparent;
+    padding: 10px 50px;
+    display: table;
+    font-weight: bolder;
+}
+
+.btn-contactar:hover {
+    color: white;
+    background-color: #000;
+
+}
+
+.bi-lock-fill {
+    color: #ccc;
+}
+
+.cosa1 {
+    max-width: 25%;
+    margin: 0 auto 0 0;
+    font-weight: lighter;
+}
+
+.cosa {
+    width: 75%;
+}
+
+.header {
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+}
+
+/* Estilo para el label seleccionado */
+input[type="radio"]:checked + .pagina-label {
+    margin: 15px 0 15px 15px;
+    background-color: #000;
+    color: #fff;
+
+}
+
+
+.input {
+    display: none;
+}
+
+
+ul li a {
+    font-family: Exo-Regular;
+}
+
+.contenido {
+    background-color: white;
+    border: 1px solid black;
+}
+
+/* Agrega tus estilos CSS personalizados para el mensaje aquí */
+.message-container {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.message {
+    background-color: red;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+
+@media screen and (max-width: 1620px) {
+    
+}
+
+@media screen and (max-width: 930px){
+    
+}
+
+@media screen and (max-width: 735px){
+    
+}
+
+@media screen and (max-width: 413px) {
+   
+} 
+
+.cosa {
+    position: relative;
+    background-color: #ccc;
+    justify-content: space-between;
+}
+
+#downloads {
+    border-radius: 10px;
+    width: 150px;
+    height: 40px;
+    padding: 10px;
+    text-decoration: none;
+    background-color: #28be14;
+    text-align: center;
+    color: white;
+    display: block;
+    position: absolute;
+    bottom: 25px;
+    left: 2%;
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+    transition: 0.2s ease-in-out;
+    font-family: Exo-Regular;
+}
+
+#downloads:hover {
+    bottom: 27px;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.5);
+    background-color: #1d961f; /* Cambio de color de fondo al pasar el cursor */
+}
+
+#previsualizar {
+
+    border-radius: 10px;
+    width: 150px;
+    height: 40px;
+    padding: 10px;
+    text-decoration: none;
+    background-color: #28be14;
+    text-align: center;
+    color: white;
+    display: block;
+    position: absolute;
+    bottom: 25px;
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+    transition: 0.2s ease-in-out;
+    font-family: Exo-Regular;
+    right: 2%;
+}
+
+#previsualizar:hover {
+    bottom: 27px;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.5);
+    background-color: #1d961f; /* Cambio de color de fondo al pasar el cursor */
+}
